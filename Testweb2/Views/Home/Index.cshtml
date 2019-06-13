@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <form asp-controller="Product" asp-action="SearchProducts">
+        ค้นหาสินค้า : <input type="text" name="q" />
+        <input type="submit" value="ค้นหา" />
+    </form>
+</div>
+
+
